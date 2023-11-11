@@ -1,0 +1,20 @@
+{
+  "name": "delete-later",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build:css": "npx tailwindcss build static/css/styles.css -o static/css/styles.css",
+    "start": "python app.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31"
+  },
+  "devDependencies": {
+    "daisyui": "^3.9.4"
+  }
+}
