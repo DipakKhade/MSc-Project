@@ -7,10 +7,7 @@ from keras.models import load_model
 from flask import Flask, request, render_template
 from werkzeug.utils import secure_filename
 
-
 app = Flask(__name__)
-
-
 try:
         model =load_model('model.keras')
         print('Model loaded. Check http://127.0.0.1:5000/')
@@ -53,13 +50,7 @@ try:
                 result=get_className(value) 
                 return result
             return None
-
-
 except Exception as e:
     print(e)
-
-
-
-
 if __name__ == '__main__':
     app.run(debug=True)

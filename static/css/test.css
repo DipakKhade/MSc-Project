@@ -48,6 +48,8 @@ body{
 .rr{
     margin-right: 32px;
     margin-top: 12px;
+    width: 30vw;
+    margin-left: 66%;
 }
 
 .card{
@@ -105,4 +107,14 @@ body{
 
 #footer{
     margin-top: 34px;
+}
+
+#precau{
+    margin-top: 64px;
+
+
+}
+
+.prer{
+    width: 60vw;
 }
